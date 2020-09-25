@@ -8,5 +8,5 @@ import (
 
 //--- Root of the project
 func main() {
-	fmt.Println(helloworld.Hello())
+	fmt.Println(helloworld.Hello("Aayush"))
 }
