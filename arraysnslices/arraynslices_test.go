@@ -1,6 +1,9 @@
 package arraysnslices
 
-import "testing"
+import (
+	"reflect"
+	"testing"
+)
 
 func TestSum(t *testing.T) {
 
@@ -13,4 +16,14 @@ func TestSum(t *testing.T) {
 		t.Errorf("got %d want %d given, %v", got, want, numbers)
 	}
 
+}
+
+func TestSumAll(t *testing.T) {
+	got := SumAll([]int{1, 4}, []int{2, 8})
+
+	want := []int{5, 10}
+
+	if !reflect.DeepEqual(got, want) {
+		t.Errorf("got %v want %v", got, want)
+	}
 }
