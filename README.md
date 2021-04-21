@@ -1,6 +1,5 @@
 # tdd-go
 
-## Story behind
+### Story behind
 
-I am in the process of learning, building a Go based API backend.
-While doing so, I have come across the concept of Test-Driven-Development quite a lot of times, and some google searches later I came across this repo by Chris James @quii -> [quii/Learn Go With Tests](https://github.com/quii/learn-go-with-tests) and when is better than now to learn TDD!
+While building backend API using Golang, I came across the term Test Driven Development [TDD] a lot. That's when I thought I need some hands-on exp with TDD, and using Chris James @quii -> [quii/Learn Go With Tests](https://github.com/quii/learn-go-with-tests) to guide myself.
